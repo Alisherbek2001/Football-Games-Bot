@@ -1,0 +1,1 @@
+print((lambda n: 1 if n == 0 else n * (lambda f: f(f)(n - 1)))(1))
